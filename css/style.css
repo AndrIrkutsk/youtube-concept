@@ -1,0 +1,96 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 32px;
+  padding-right: 70px;
+}
+.logo{
+  margin-right: 59px;
+}
+.menu-button{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  width: 20px;
+  height: 17px;
+  padding: 0;
+  border: none;
+  margin-right: 28px;
+  cursor: pointer;
+}
+.menu-line{
+  display: block;
+  background: #1F2022;
+  width: 20px;
+  height: 3px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.input-group{
+  display: flex;
+  justify-content: space-between;
+  background: #EBEBEB;
+  border-radius: 22px;
+  align-items: center;
+  padding-right: 17px;
+  max-width: 830px;
+  width: 50%;
+}
+.input-search{
+  background: transparent;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 23px;
+  padding-right: 23px;
+}
+.button-search{
+  padding: 0;
+  width: 19px;
+  height: 19px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.icons{
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.icon-search{
+  fill: #000;
+}
+.icons-link{
+  text-decoration: none;
+  opacity: 0.24;
+}
+.icons-link:hover{
+  opacity: 0.7;
+}
+.icons-link:not(:last-child){
+  margin-right: 50px;
+}
+.user{
+  margin-left: 45px;
+}
+.user-avatar{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
